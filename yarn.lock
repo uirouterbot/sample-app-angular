@@ -212,17 +212,17 @@
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@types/whatwg-streams/-/whatwg-streams-0.0.3.tgz#4853d869f3e26d5adfd0d9407b6edce716d06bfe"
 
-"@uirouter/angular@1.0.0-beta.7":
-  version "1.0.0-beta.7"
-  resolved "https://registry.yarnpkg.com/@uirouter/angular/-/angular-1.0.0-beta.7.tgz#0cffd27863d9adc7543402ecf83732f5e924a2b8"
+"@uirouter/angular@1.0.0-beta.9":
+  version "1.0.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@uirouter/angular/-/angular-1.0.0-beta.9.tgz#6bdac652941a4a83f7f1118a07320f359dcc5b43"
   dependencies:
-    "@uirouter/core" "=5.0.4"
+    "@uirouter/core" "5.0.11"
     "@uirouter/rx" "=0.4.1"
     tslib "^1.7.1"
 
-"@uirouter/core@=5.0.4":
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-5.0.4.tgz#798b9ec0f2cf58b234cce75fa2634b4698a44aca"
+"@uirouter/core@5.0.11":
+  version "5.0.11"
+  resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-5.0.11.tgz#bec461fcda767d79c98f6647cc9313ef9e5de03a"
 
 "@uirouter/rx@=0.4.1":
   version "0.4.1"
@@ -236,12 +236,13 @@
     rollup-plugin-uglify "^1.0.2"
     rollup-plugin-visualizer "^0.2.1"
 
-"@uirouter/visualizer@file:.yalc/@uirouter/visualizer":
-  version "4.0.2-e709db60"
+"@uirouter/visualizer@4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@uirouter/visualizer/-/visualizer-4.0.2.tgz#c26784dd1f55c0e4540d571c95a2308f05812650"
   dependencies:
-    d3-hierarchy "^1.1.5"
-    d3-interpolate "^1.1.5"
-    preact "^8.2.5"
+    d3-hierarchy "^1.0.3"
+    d3-interpolate "^1.1.3"
+    preact "^7.2.0"
 
 abbrev@1:
   version "1.1.0"
@@ -1480,11 +1481,11 @@ d3-color@1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/d3-color/-/d3-color-1.0.3.tgz#bc7643fca8e53a8347e2fbdaffa236796b58509b"
 
-d3-hierarchy@^1.1.5:
+d3-hierarchy@^1.0.3:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/d3-hierarchy/-/d3-hierarchy-1.1.5.tgz#a1c845c42f84a206bcf1c01c01098ea4ddaa7a26"
 
-d3-interpolate@^1.1.5:
+d3-interpolate@^1.1.3:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/d3-interpolate/-/d3-interpolate-1.1.5.tgz#69e099ff39214716e563c9aec3ea9d1ea4b8a79f"
   dependencies:
@@ -4542,9 +4543,9 @@ postcss@^6.0.1:
     source-map "^0.6.1"
     supports-color "^4.4.0"
 
-preact@^8.2.5:
-  version "8.2.5"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-8.2.5.tgz#cbfa3962a8012768159f6d01d46f9c1eb3213c0a"
+preact@^7.2.0:
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-7.2.1.tgz#159e1892f614985e49eb0a96fd6e6d8bdf8bbcc5"
 
 prelude-ls@~1.1.2:
   version "1.1.2"

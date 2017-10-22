@@ -29,7 +29,7 @@
     "@angular/router": "4.4.6",
     "@ngtools/webpack": "1.7.4",
     "@nguniversal/module-map-ngfactory-loader": "^1.0.0-beta.3",
-    "@uirouter/angular": "1.0.0-beta.7",
+    "@uirouter/angular": "1.0.0-beta.9",
     "@uirouter/visualizer": "4.0.2",
     "bootstrap": "^3.3.7",
     "core-js": "2.5.1",
