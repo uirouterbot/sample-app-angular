@@ -2,7 +2,7 @@ import {NgModule} from '@angular/core';
 import {ServerModule} from '@angular/platform-server';
 
 import {AppModule} from './app.module';
-import { UIView } from '@uirouter/angular';
+import { SampleAppRootComponent } from './sampleAppRoot.component';
 
 @NgModule({
   imports: [
@@ -13,6 +13,6 @@ import { UIView } from '@uirouter/angular';
   ],
   // Since the bootstrapped component is not inherited from your
   // imported AppModule, it needs to be repeated here.
-  bootstrap: [UIView],
+  bootstrap: [SampleAppRootComponent],
 })
 export class AppServerModule {}

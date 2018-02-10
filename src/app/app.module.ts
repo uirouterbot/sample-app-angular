@@ -11,9 +11,11 @@ import { UIRouterModule, UIView } from '@uirouter/angular';
 import { APP_STATES } from './app.states';
 import { GlobalModule } from './global/global.module';
 import { routerConfigFn } from './router.config';
+import { SampleAppRootComponent } from './sampleAppRoot.component';
 
 @NgModule({
   declarations: [
+    SampleAppRootComponent,
     AppComponent,
     WelcomeComponent,
     LoginComponent,
@@ -37,6 +39,6 @@ import { routerConfigFn } from './router.config';
   providers: [
     { provide: NgModuleFactoryLoader, useClass: SystemJsNgModuleLoader }
   ],
-  bootstrap: [UIView]
+  bootstrap: [SampleAppRootComponent]
 })
 export class AppModule { }
